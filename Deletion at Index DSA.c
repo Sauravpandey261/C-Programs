@@ -8,7 +8,7 @@ void traversing(struct node *ptr){
 	while (ptr!=NULL){
 	printf("%d\n",ptr->data);
 	ptr=ptr->next;
-	count++;
+	count+1;
 	}
 	}
 struct node * deleteAtIndex(struct node *first,int index){
