@@ -12,7 +12,7 @@ int main(){
 	    scanf("%d",&s[i].rollno);
 		printf("Enter the Name:");
 		scanf("%s",s[i].name);
-		printf("Enter the marks:");
+		printf("enter the marks:");
 		scanf("%f",&s[i].marks);
 	}
 	for(i=1;i<3;i++){
